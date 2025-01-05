@@ -1,6 +1,6 @@
-import random as rand
+import random as rand #using random module-used to generate random digits
 import string
-# print(dir(rand))
+# print(dir(rand))#dir prints all the keywords of that module
 # print(dir(string))
 numbers = string.digits
 length = int(input("Enter the desired length of the password: "))
